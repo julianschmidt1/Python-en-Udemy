@@ -1,5 +1,6 @@
 from cuadrado import Cuadrado
 from rectangulo import Rectangulo
+from figura_geometrica import FiguraGeometrica
 
 cuadrado=Cuadrado(2, "Verde")
 print("- - - - Caracteristicas del cuadrado - - - -", cuadrado)
