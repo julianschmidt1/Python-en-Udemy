@@ -7,9 +7,11 @@ conexion=psycopg2.connect(user='postgres',
                           database='test_db')
 
 cursor=conexion.cursor()
-sen1='SELECT * FROM persona ORDER BY id_persona'
-cursor.execute(sen1)
-registro=cursor.fetchall()
+sen1='SELECT * FROM persona WHERE id_persona = %s'
+id_persona=input("Ingrese la PK a buscar: ")
+pk=(id_persona,)
+cursor.execute(sen1, pk)
+registro=cursor.fetchone()
 print(registro)
 
 cursor.close()
