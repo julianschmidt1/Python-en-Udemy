@@ -1,0 +1,9 @@
+2020-05-11 15:30:19,314: WARNING logger_base.py : 11 msj warning
+2020-05-11 15:30:19,314: INFO logger_base.py : 12 Mensaje info
+2020-05-11 15:30:19,315: DEBUG logger_base.py : 13 Mensaje debug
+2020-05-11 15:30:19,315: ERROR logger_base.py : 14 mensaje error
+03:31:23 PM: WARNING logger_base.py : 12 msj warning
+03:31:23 PM: INFO logger_base.py : 13 Mensaje info
+03:31:23 PM: DEBUG logger_base.py : 14 Mensaje debug
+03:31:23 PM: ERROR logger_base.py : 15 mensaje error
+03:36:27 PM: INFO conexion.py : 3 Logger conexion test
